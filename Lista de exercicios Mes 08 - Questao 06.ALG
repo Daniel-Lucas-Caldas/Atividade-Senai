@@ -1,11 +1,11 @@
 Algoritmo "semnome"
-// Disciplina   : [Linguagem e Lógica de Programação]
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Daniel Lucas dos Santos Caldas
 // Data atual  : 01/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    Primeiranota : inteiro
    Segundanota : inteiro
 
@@ -13,8 +13,8 @@ Var
    Soma : inteiro
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
-   // Requisitando dados do usúario
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
+   // Requisitando dados do usÃºario
    Escreva ("Digite a sua primeira nota: ")
    Leia (Primeiranota)
    Limpatela
@@ -27,13 +27,17 @@ Inicio
    soma <- Primeiranota + Segundanota
    Media <- soma * 2
 
-   // Apresentação dos dados ao usúario
+   // ApresentaÃ§Ã£o dos dados ao usÃºario
    Se (media >= 6.0) entao
-      escreva ("Parabéns, não fez mais que sua obrigação")
+      escreva ("ParabÃ©ns, nÃ£o fez mais que sua obrigaÃ§Ã£o")
    Fimse
 
    Se(Media <= 4.0) entao
-      escreva ("Perdeu seu merda, está reprovado")
+      escreva ("Perdeu seu merda, estÃ¡ recuperaÃ§Ã£o")
+   Fimse
+
+ Se (Media < 4.0) entao
+      escreva ("SÃ³ ano que vem seu burro, tÃ¡ reprovado")
    Fimse
 
 Fimalgoritmo
