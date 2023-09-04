@@ -1,18 +1,18 @@
 Algoritmo "semnome"
-// Disciplina  :  [Linguagem e Lógica de Programação]
+// Disciplina  :  [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
 // Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Daniel Lucas dos Santos Caldas
 // Data atual  : 04/09/2023
 Var
-   // Seção de Declarações das variáveis
+   // SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
    litros: Real
    tip: Caractere
    Desc : real
    Valor : real
 
 Inicio
-   // Seção de Comandos, procedimento, funções, operadores, etc...
+   // SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
     Escreva ("Digite a quantidade de litros vendidos: ")
     Leia(Litros)
     Limpatela
@@ -32,7 +32,7 @@ Inicio
          escreval("total da compra: ", Valor * Desc )
       fimse
    senao
-      se (tip = gasolina) entao
+      se (tip = "gasolina") entao
          Valor <- litros*6,59
          se (litros <=25) entao
             Desc <- 97/100
